@@ -1,0 +1,67 @@
+.card{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding:15px 20px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.id{
+    color:gray;
+}
+.profile{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.title{
+    font-weight: bold;
+}
+.bottombar{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+.circle{
+    height: 10px;
+    width: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+.exclame, .feature{
+    border:1px solid lightgray;
+    border-radius:3px;
+    
+}
+.exclame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:25px;
+    height:25px;
+    padding:3px;
+}
+.exclame > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: gray;
+    color: white;
+    
+    padding:0 5px;
+    border-radius: 2px;
+}
+.feature{
+    padding:2px 5px;
+    display: flex;
+    gap:5px;
+    align-items: center;
+    color:gray;
+}
